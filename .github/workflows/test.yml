@@ -25,4 +25,4 @@ jobs:
     with:
      python-version: 3.9
   - run: pip install -r requirements-headless.txt
-  - run: python run.py -s .github/examples/12.png -t .github/examples/test.png -o .github/examples/output.png --frame-processor face_enhancer
+  - run: python run.py -s .github/examples/12.png -t .github/examples/test.png -o .github/examples/output.png
